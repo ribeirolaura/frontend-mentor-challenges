@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  padding: 1.5em;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.texto > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+hr {
+  border: 0.1px solid hsl(215, 32%, 27%);
+  margin: 10px 0 px;
+  opacity: 0.5;
+}
+
+h1 {
+  opacity: 0.9;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.valueAndDate > span {
+  padding-left: 10px;
+}
+
+.valueContainer > span {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.dateContainer,
+.valueContainer,
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.dateContainer > span {
+  color: hsl(215, 51%, 70%);
+  padding-left: 10px;
+}
+
+.valueAndDate {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+
+.author {
+  color: hsl(215, 51%, 70%);
+  padding: 10px 0px;
+}
+
+.full_text {
+  padding-left: 15px;
+}
+
+.author > img {
+  width: 34px;
+  border: 1px solid white;
+  border-radius: 34px;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+}
