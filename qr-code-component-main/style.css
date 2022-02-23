@@ -14,7 +14,7 @@
   align-items: center;
   background-color: #ffffff;
   border-radius: 15px;
-  width: 210px;
+  width: 300px;
   padding: 10px;
 }
 
@@ -31,7 +31,7 @@ img {
 }
 
 p {
-    font-size: 10px;
+    font-size: 15px;
     font-family: "Outfit";
     font-weight: 400;
     color: #A5A7B3;
@@ -40,7 +40,7 @@ p {
 }
 
 h1 {
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Outfit";
   font-weight: 700;
   color: #223052;
