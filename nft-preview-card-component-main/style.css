@@ -17,8 +17,36 @@ body {
   align-items: center;
 }
 
-.texto > img {
+.imagens {
+  position: relative;
+}
+
+img{
+  border-radius: 15px;
   width: 100%;
+  display: inline-block;
+}
+
+.imagens .view {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.clock{
+  width: 25px;
+}
+
+.imagens:hover .view{
+  display: inline;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.5; 
+}
+
+.view{
+  padding: 125px;
   border-radius: 15px;
 }
 
@@ -33,6 +61,10 @@ h1 {
   color: hsl(0, 0%, 100%);
   font-size: 20px;
   font-weight: 500;
+}
+
+h1:hover{
+  color: hsl(178, 100%, 50%);
 }
 
 p {
@@ -54,36 +86,40 @@ p {
 .dateContainer,
 .valueContainer,
 .author {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .dateContainer > span {
-  color: hsl(215, 51%, 70%);
-  padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
 }
 
 .valueAndDate {
-  display: flex;
-  padding: 10px 0px;
-  justify-content: space-between;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
 }
 
 .author {
-  color: hsl(215, 51%, 70%);
-  padding: 10px 0px;
+    color: hsl(215, 51%, 70%);
+    padding: 10px 0px;
 }
 
 .full_text {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 .author > img {
-  width: 34px;
-  border: 1px solid white;
-  border-radius: 34px;
+    width: 34px;
+    border: 1px solid white;
+    border-radius: 34px;
 }
 
 .name {
-  color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+.name:hover{
+    color: hsl(178, 100%, 50%);
 }
